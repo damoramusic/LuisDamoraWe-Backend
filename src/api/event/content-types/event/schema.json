@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "singularName": "event",
+    "pluralName": "events",
+    "displayName": "event",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "event_place": {
+      "type": "string",
+      "required": true
+    },
+    "event_city": {
+      "type": "string",
+      "required": true
+    },
+    "event_country": {
+      "type": "string"
+    },
+    "event_address": {
+      "type": "string",
+      "required": true
+    },
+    "event_price_range": {
+      "type": "string",
+      "required": true
+    },
+    "event_day": {
+      "type": "string",
+      "required": true
+    },
+    "event_month": {
+      "type": "string",
+      "required": true
+    },
+    "event_year": {
+      "type": "string"
+    },
+    "event_tickets_link": {
+      "type": "string",
+      "default": "#"
+    }
+  }
+}

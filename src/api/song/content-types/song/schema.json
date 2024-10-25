@@ -1,0 +1,102 @@
+{
+  "kind": "collectionType",
+  "collectionName": "songs",
+  "info": {
+    "singularName": "song",
+    "pluralName": "songs",
+    "displayName": "Song",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "song_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "song_author": {
+      "type": "string",
+      "required": true
+    },
+    "song_title": {
+      "type": "string",
+      "required": true
+    },
+    "song_audio": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "audios"
+      ]
+    },
+    "song_remix_author_1": {
+      "type": "string"
+    },
+    "song_remix_title_1": {
+      "type": "string"
+    },
+    "song_remix_audio_1": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "audios"
+      ]
+    },
+    "song_remix_author_2": {
+      "type": "string"
+    },
+    "song_remix_title_2": {
+      "type": "string"
+    },
+    "song_remix_audio_2": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "audios"
+      ]
+    },
+    "song_remix_author_3": {
+      "type": "string"
+    },
+    "song_remix_title_3": {
+      "type": "string"
+    },
+    "song_remix_audio_3": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "audios"
+      ]
+    },
+    "song_link": {
+      "type": "string",
+      "required": true
+    },
+    "song_remix_author_4": {
+      "type": "string"
+    },
+    "song_remix_title_4": {
+      "type": "string"
+    },
+    "song_remix_audio_4": {
+      "allowedTypes": [
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

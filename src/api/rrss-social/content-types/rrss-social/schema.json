@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rrss_socials",
+  "info": {
+    "singularName": "rrss-social",
+    "pluralName": "rrss-socials",
+    "displayName": "rrss_social",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "social_name": {
+      "type": "string"
+    },
+    "social_url": {
+      "type": "string"
+    },
+    "social_component": {
+      "type": "string"
+    }
+  }
+}

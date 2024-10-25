@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events_sections",
+  "info": {
+    "singularName": "events-section",
+    "pluralName": "events-sections",
+    "displayName": "events_section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "events_section_title": {
+      "type": "string",
+      "required": true
+    },
+    "events_section_sub_title": {
+      "type": "string",
+      "required": true
+    },
+    "events_section_bg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

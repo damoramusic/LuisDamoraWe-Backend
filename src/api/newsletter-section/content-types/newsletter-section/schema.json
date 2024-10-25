@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "newsletter_sections",
+  "info": {
+    "singularName": "newsletter-section",
+    "pluralName": "newsletter-sections",
+    "displayName": "NewsletterSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "newsletter_bg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mail_lists",
+  "info": {
+    "singularName": "mail-list",
+    "pluralName": "mail-lists",
+    "displayName": "MailList"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    }
+  }
+}
