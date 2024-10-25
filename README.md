@@ -12,6 +12,10 @@ Password: LuisDamoramusic$1
 
 http://localhost:1337/admin
 
+# run proyect
+nvm use 20.9.0
+npm run develop
+
 
 # 🚀 Getting started with Strapi
 
